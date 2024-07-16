@@ -71,6 +71,7 @@ function sortByNutriScore(products) {
         'c': 3,
         'd': 4,
         'e': 5,
+        'unknown': 6,
     };
 
     products.sort((a, b) => nutriScoreMap[a.nutriscore] - nutriScoreMap[b.nutriscore]);
