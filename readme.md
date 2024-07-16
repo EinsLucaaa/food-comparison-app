@@ -23,7 +23,7 @@ To run this project locally, make sure you have Node.js, Expo CLI, and a mobile 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/einsluca/food-comparison-app.git
+   git clone https://github.com/einslucaaa/food-comparison-app.git
    ```
 
 2. Navigate into the project directory:
