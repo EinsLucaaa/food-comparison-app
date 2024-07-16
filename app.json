@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "einkaufsheld",
-    "slug": "einkaufsheld",
+    "name": "food-comparison",
+    "slug": "food-comparison",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "food-comparison-scheme",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +26,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ],
+      [
+        "expo-asset",
+        {
+          "assets": ["./assets/loader.json"]
+        }
+      ]
+    ]
   }
 }
