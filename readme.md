@@ -14,7 +14,7 @@ This is a mobile application built with React Native and Expo that allows users 
 - Expo
 - JavaScript
 - [Open Food Facts API](https://world.openfoodfacts.org/data)
-- [Expo Router](https://docs.expo.dev/guides/routing/) for navigation
+- Expo Router for navigation
 
 ## Installation
 
